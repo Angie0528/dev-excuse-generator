@@ -1,7 +1,7 @@
 name: CI Excuse Generator Pipeline
 on:
   push:
-    branches: [ main ]
+    branches: [main]
 jobs:
   build-and-test:
     runs-on: ubuntu-latest
